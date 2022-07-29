@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding: 4px;
+  padding: 18px;
 
   input {
     border: 1px solid #ccc;
@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
   }
 
   button {
-    background-color: #225ed8;
+    background-color: #76B4FF;
     padding: 8px 16px;
     margin: 0 16px;
     border-radius: 8px;

@@ -8,23 +8,23 @@ export const Wrapper = styled.div`
 export const WrapperInfoUser = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   margin-left: 8px;
   height: 200px;
 
   h1 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bold;
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
   }
 
   h4 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
   }
 `;
@@ -48,7 +48,7 @@ export const WrapperUserGeneric = styled.div`
   }
 
   a {
-    font-size: 18px;
+    font-size: 16px;
     color: blue;
     font-weight: bold;
   }
@@ -56,6 +56,10 @@ export const WrapperUserGeneric = styled.div`
 
 export const WrapperImage = styled.img`
   border-radius: 50%;
-  width: 200px;
+  width: 150px;
   margin: 8px;
+`;
+export const linkBlog = styled.img`
+     font-size: 14px;
+
 `;

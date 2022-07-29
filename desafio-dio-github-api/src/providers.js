@@ -1,5 +1,5 @@
 import React from "react";
-import App from "./App";
+import App from "./App.tsx";
 import { ResetCSS } from "./global/resetCss";
 import GithubProvider from "./providers/github-provider";
 
